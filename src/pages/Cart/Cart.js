@@ -38,12 +38,12 @@ const Cart = ({ selectedItems, loadData, productCheckout }) => {
           <Table className={classes.table} aria-label="caption table">
             <caption>
               <Link to="/">
-                <Button className={classes.button} variant="outlined" color="secondary">
+                <Button className={classes.button} color="secondary" variant="contained">
                   Back
                 </Button>
               </Link>
               <Link to="/">
-                <Button className={classes.button} onClick={productCheckout} variant="outlined" color="primary">
+                <Button className={classes.button} onClick={productCheckout} color="primary" variant="contained">
                   Buy
                 </Button>
               </Link>
